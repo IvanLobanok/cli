@@ -73,7 +73,6 @@ func main() {
 
 		case "0":
 			fmt.Println("Досвидания!")
-			tm.SaveToFile(filename)
 			exitFlag = !exitFlag
 		}
 	}
